@@ -1,0 +1,144 @@
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif; 
+  background-color: #f4f4f4;
+
+
+  
+}
+:root {
+  --dark-blue: #18293E;
+  --medium-blue: #0F4D72;
+  --light-blue: #0771A7;
+  --sky-blue: #72BADE;
+  --pale-blue: #B6E0F8;
+  --lightest-blue: #E8F1F2;
+  --grey: #D4D4D4;
+  --brown: #724D28;
+}
+
+body {
+  background-color: var(--lightest-blue);
+  color: var(--dark-blue);
+}
+
+header, footer {
+  background-color: var(--medium-blue);
+}
+
+a, button {
+  background-color: var(--light-blue);
+  color: white;
+}
+
+
+h1,h2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  text-shadow: 3px 3px 1px black;
+  color: var(--sky-blue);
+
+  
+}
+body {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 5px solid #00539f;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: #00539f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #00539f;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+    background-color: var(--light-blue);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+  background-color: var(--dark-blue);
+}
+section {
+  margin-bottom: 40px;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-item {
+  background: #e7e7e7;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.portfolio-item h3 {
+  margin-top: 0;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Add styles here*/
+#contact form {
+}
+
+footer {
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+.change-user-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
